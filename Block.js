@@ -18,7 +18,6 @@ class Block {
             var pos = this.body.position;
             push()
             translate(pos.x,pos.y);
-            //translate(0,0,this.width,this.height);
             rotate(angle);
             rectMode(CENTER);
             rect(0,0,this.width,this.height);
